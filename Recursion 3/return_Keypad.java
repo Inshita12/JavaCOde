@@ -1,17 +1,13 @@
-
-
 class solution {
     public static String helper(int n) {
         String[] ans = { "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
         return ans[n - 2];
     }
-
     public static void print(String[] ans) {
         for (int i = 0; i < ans.length; i++)
             System.out.print(ans[i] + " ");
         System.out.println("\n------------------------------");
     }
-
     public static String[] keypad(int n) {
         if (n == 0 || n == 1) {
             return new String[] { "" };
@@ -28,7 +24,6 @@ class solution {
         return ans;
     }
 }
-
 class runner {
     public static void print(String[] ans) {
         for (int i = 0; i < ans.length; i++)

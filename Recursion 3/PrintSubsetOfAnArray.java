@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 class runner {
    public static int[] takeInput() {
       Scanner s = new Scanner(System.in);
@@ -39,3 +39,28 @@ class solution {
 
    }
 }
+
+
+//ARRAYLISTMETHOD
+// import java.util.*;
+
+// class c {
+//     public static void printSubsets(int[] input, int index, ArrayList<Integer> output) {
+//         if (index == input.length) {
+//             System.out.println(output);
+//             return;
+//         }
+//         printSubsets(input, index + 1, output);
+//         output.add(input[index]);
+//         printSubsets(input, index + 1, output);
+//         output.remove(output.size() - 1);
+//     }
+
+//     public static void printSubsets(int[] input) {
+//         printSubsets(input, 0, new ArrayList<>());
+//     }
+
+//     public static void main(String[] args) {
+//         printSubsets(new int[] { 11, 12, 13 });
+//     }
+// }

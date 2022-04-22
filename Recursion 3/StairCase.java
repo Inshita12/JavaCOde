@@ -8,9 +8,7 @@ class solution {
         }
         return stairCase(n-1)+stairCase(n-2)+stairCase(n-3);
     }
-
-
-    public static void main(String[] args) {
+ public static void main(String[] args) {
         System.out.println(stairCase(4));
     }
 }

@@ -14,7 +14,7 @@ class celtofah {
 		Scanner sc = new Scanner(System.in);
 		int s = sc.nextInt();
 		int e = sc.nextInt();
-		int w = sc.nextInt();
+		int w = sc.nextInt();+
 		celsiustofarhrenheit(s, e, w);
 	}
 }
