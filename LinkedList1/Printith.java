@@ -1,5 +1,19 @@
+/*
+
+ 	Following is the Node class already written for the Linked List
+
+	class LinkedListNode<T> {
+		T data;
+		LinkedListNode<T> next;
+
+		public Node(T data) {
+			this.data = data;
+		}
+	}
+
+*/
 import java.util.Scanner;
- class Solution {
+public class Solution {
 
 	public static void printIthNode(LinkedListNode<Integer> head, int i){
 		//Your code goes here
@@ -11,8 +25,11 @@ import java.util.Scanner;
             while(head!=null && count<i ){
             head=head.next;
             count++;       
+           if(count==i)
+           {
+                System.out.println(head.data);
            }
-         System.out.println(head.count.data);
         }
 	}
+}
 }
