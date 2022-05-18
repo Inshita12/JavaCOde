@@ -1,0 +1,8 @@
+class LinkedListNode<T> {
+    T data;
+    LinkedListNode<T> next;
+
+    public Node(T data) {
+        this.data = data;
+    }
+}
