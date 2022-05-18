@@ -1,5 +1,5 @@
 
-public class Solution {
+ class Solution {
 
 	public static int length(LinkedListNode<Integer> head){
 		//Your code goes here

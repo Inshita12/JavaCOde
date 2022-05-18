@@ -12,8 +12,7 @@
 	}
 
 */
-import java.util.Scanner;
-public class Solution {
+import java.util.Scanner; class Solution {
 
 	public static void printIthNode(LinkedListNode<Integer> head, int i){
 		//Your code goes here
